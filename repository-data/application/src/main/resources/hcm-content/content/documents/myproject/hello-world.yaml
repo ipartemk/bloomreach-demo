@@ -1,0 +1,67 @@
+/content/documents/myproject/hello-world:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: afe8e1e1-192b-4107-b967-8b2ab62657dd
+  hippo:name: Hello World
+  hippo:versionHistory: 2c5ee8cf-aa1e-4cde-9bec-9115e1694f40
+  /hello-world[1]:
+    jcr:primaryType: myproject:simpledocument
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 95bd0f85-a685-4f0e-b505-f70cbddca863
+    hippo:availability: []
+    hippostd:retainable: false
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2024-09-16T17:52:23.537+02:00
+    hippostdpubwf:lastModificationDate: 2024-09-16T17:52:23.537+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: 318e4d74-12bd-4b09-8e25-9f825c80a720
+    hippotranslation:locale: en
+    myproject:title: Hello Title
+    /myproject:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: |-
+        <p>Contennnnnttt <strong>Hiii&nbsp;</strong></p>
+
+        <p>many lines</p>
+  /hello-world[2]:
+    jcr:primaryType: myproject:simpledocument
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: 9cf7f87e-f267-4ac7-a212-44622d2db857
+    hippo:availability: [preview]
+    hippostd:retainable: false
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2024-09-16T17:52:23.537+02:00
+    hippostdpubwf:lastModificationDate: 2024-09-16T17:53:45.125+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: 318e4d74-12bd-4b09-8e25-9f825c80a720
+    hippotranslation:locale: en
+    myproject:title: Hello Title
+    /myproject:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: |-
+        <p>Contennnnnttt <strong>Hiii&nbsp;</strong></p>
+
+        <p>many lines</p>
+  /hello-world[3]:
+    jcr:primaryType: myproject:simpledocument
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: dc4261e4-e00d-4e26-b3bc-ee44b68e9fe6
+    hippo:availability: [live]
+    hippostd:retainable: false
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2024-09-16T17:52:23.537+02:00
+    hippostdpubwf:lastModificationDate: 2024-09-16T17:53:45.125+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2024-09-16T17:53:51.599+02:00
+    hippotranslation:id: 318e4d74-12bd-4b09-8e25-9f825c80a720
+    hippotranslation:locale: en
+    myproject:title: Hello Title
+    /myproject:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: |-
+        <p>Contennnnnttt <strong>Hiii&nbsp;</strong></p>
+
+        <p>many lines</p>

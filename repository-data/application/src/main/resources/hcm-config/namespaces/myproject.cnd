@@ -16,3 +16,6 @@
 [myproject:blogpost] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument
   orderable
 
+[myproject:simpledocument] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument
+  orderable
+
